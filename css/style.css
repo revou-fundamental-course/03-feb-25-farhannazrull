@@ -1,0 +1,144 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
+
+h1 {
+  color: #374151;
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+form {
+  background: #f9fafb;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #d1d5db;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #6b7280;
+  font-weight: bold;
+  text-align: left;
+  font-size: 16px;
+}
+
+form input[type="number"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #ffffff;
+  transition: box-shadow 0.3s;
+}
+
+form input[type="number"]:focus {
+  box-shadow: 0 0 5px rgba(99, 102, 241, 0.5);
+  outline: none;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+button {
+  flex: 1;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.primary {
+  background: linear-gradient(145deg, #6366f1, #818cf8);
+  color: white;
+}
+
+.secondary {
+  background-color: #e0e7ff;
+  color: #4338ca;
+}
+
+.tertiary {
+  background-color: #f9fafb;
+  color: #6b7280;
+}
+
+.result {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #d1d5db;
+  margin-bottom: 30px;
+}
+
+.result h2 {
+  color: #4b5563;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.result p {
+  color: #1f2937;
+  font-size: 18px;
+  margin: 0;
+}
+
+#explanation {
+  background: #f9fafb;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid #d1d5db;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+#explanation h3 {
+  color: #4b5563;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+#explanation p {
+  color: #374151;
+  line-height: 1.6;
+}
